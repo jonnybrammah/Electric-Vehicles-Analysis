@@ -9,6 +9,7 @@ Image Taken from [General Kinematics](https://www.generalkinematics.com/blog/ele
 ## Project Description
 
 The goal of this project was to visualize data surrounding Electric Vehicles. This included data about sales of electric vehicles (both battery and plug-in hybrid) in different countries per year, as well as number of charging points in different countries per year. Data about the tax rebate incentives in the state of California were then analyzed to see how the number of rebate dollars claimed per years has changed, and to what extent this varies by county. Data cleaning and analysis was completed in python in a jupyter notebook using the pandas library and data visualization was completed using the plotly library.
+
 Questions to be answered can be found in the table of contents, below:
 
 -----
