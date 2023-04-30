@@ -49,6 +49,9 @@ The following bar chart includes all countries within the data set:
 <img src="https://raw.githubusercontent.com/jonnybrammah/Electric-Vehicles-Analysis/main/Output/EV_Sales_by_Country_2021.png">
 </p>
 
+There are two notable points from this graph. One is that clearly China is substantially outperforming all other countries in the dataset by sales of electric vehicles. Another is that the sales of BEVs in most countries are higher than the sales of PHEVs, showing the conclusion stated in the section of USA's EV sales over time seems to be a global trend.
+
+
 
 
 #### Charging Points in USA over time
