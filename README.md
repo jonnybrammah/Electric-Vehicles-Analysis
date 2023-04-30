@@ -18,9 +18,9 @@ Questions to be answered can be found in the table of contents, below:
 
 1. [<b>Electric Vehicle Sales and Charging Points Globally and in USA</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#electric-vehicle-sales-and-charging-points-globally-and-in-usa)
     1. [<b>Electric Car Sales Data in USA over time</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#electric-car-sales-data-in-usa-over-time)
-    2. [<b>Electric Car Sales Data per Country (2022)</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#electric-car-sales-data-per-country)
+    2. [<b>Electric Car Sales Data per Country (2021)</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#electric-car-sales-data-per-country)
     3. [<b>Charging Points in USA over time</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#charging-points-in-usa-over-time)
-    4. [<b>Charging Points Data per Country (2022)</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#charging-points-data-per-country)
+    4. [<b>Charging Points Data per Country (2021)</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#charging-points-data-per-country)
 2. [<b>California Tax Rebates for Electric Vehicles</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#california-tax-rebates-for-electric-vehicles)
 -----
 
@@ -31,14 +31,23 @@ Data was collected from [International Energy Agency](https://www.iea.org/report
   
 #### Electric Car Sales Data in USA over time:
   
-  The data was filtered to show only car sales in the USA and plotted against time. This graph is shown below:
+The data was filtered to show only car sales in the USA and plotted against time. This graph is shown below:
   
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/jonnybrammah/Electric-Vehicles-Analysis/main/Output/Electric_Cars_Sold_Over_Time_USA_by_type.png">
-  </p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/jonnybrammah/Electric-Vehicles-Analysis/main/Output/Electric_Cars_Sold_Over_Time_USA_by_type.png">
+</p>
+
+This graph shows an increase in the number of both types of electric vehicles being sold in the USA with sales of both PHEVs and BEVs remaining similar up until 2017. At this point, BEV sales increase dramatically and PHEV sales decrease until an uptick after 2020. This change is potentially due to changing attitudes towards both types of EVs, with PHEV's previously being considered a "convenient stepping stone" to fully electric vehicles without drivers having to worry about range ([FleetEurope](https://www.fleeteurope.com/en/new-energies/europe/analysis/why-bev-sales-are-racing-ahead-phevs?a=JMA06&t%5B0%5D=EVs&t%5B1%5D=PHEVs&t%5B2%5D=Car&curl=1)). However, with BEV ranges increasing and the increased availability of charging stations (more below), manufacturers may have switched to fully electrifying vehicles. This change in sales numbers is also likely related to changes in government incentives, globally, towards BEVs over PHEVs.
 
 
-#### Electric Car Sales Data per Country (2022)
+#### Electric Car Sales Data per Country (2021)
+
+The data was then filtered to show sales of both types of EVs in the listed countries for the most recent year in the dataset (2021). This data was then plotted as a series of bar charts for easy comparison. 
+The following bar chart includes all countries within the data set:
+  
+<p align="center">
+<img src="https://raw.githubusercontent.com/jonnybrammah/Electric-Vehicles-Analysis/main/Output/EV_Sales_by_Country_2021.png">
+</p>
 
 
 
@@ -46,7 +55,7 @@ Data was collected from [International Energy Agency](https://www.iea.org/report
 
 
 
-#### Charging Points Data per Country (2022)
+#### Charging Points Data per Country (2021)
 
 -----
 
