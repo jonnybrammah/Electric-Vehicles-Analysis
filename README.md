@@ -82,7 +82,31 @@ This shows that the number of charging points is increasing throughout the USA y
 -----
 
 ### California Tax Rebates for Electric Vehicles
+For this section, data was collected from the [California Clean Vehicle Rebate Project](https://cleanvehiclerebate.org/en/rebate-statistics) in the form of a csv file. This data included information on tax rebates provided by the state of California to purchasers of electric vehicles, grouped by county.
+
+The data was cleaned and, in order to analyze this data per capita, merged with data taken from the US Census for the population of each California County in 2022.
+
+The following graph shows the number of rebate dollars given to people in each California county per capita:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/jonnybrammah/Electric-Vehicles-Analysis/main/Output/Rebate_Dollars_per_County_by_County.png">
+</p>
+
+It is clear from this graph that many of the tallest bars, representing highest per capita total rebates, can be found in the Bay Area (Santa Clara, Alameda, Marin, San Mateo, etc.). This likely makes some intuitive sense since incomes are likely to be high in many of these counties and so the liklihood of people buying new vehicles increases. These counties are also more densely populated that some of the more rural counties displayed on the graph, and so the liklihood of living close to charging infrastructure also increases. As discussed above, public charging capabilities are not as common in rural areas, and so this also decreases the chances of buying an electric vehicle in these counties.
+
+To test the hypothesis regarding incomes in a county vs the rebate dollars awarded to residents of that county, more data was taken from the US Census to examine the median income in all California Counties. This was also merged with the existing dataframes and median income in a county vs rebate dollars per capita in that county was plotted in the graph below:
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/jonnybrammah/Electric-Vehicles-Analysis/main/Output/Rebate_Dollars_per_Capita_by_median_income.png">
+</p>
+
+This graph clearly supports the hypothesis that people living in counties with higher median incomes are more likely to claim rebate dollars. The correlation can be clearly seen by the line of best fit, and the r-value of this graph is 0.78 indicating a strong correlation. As suggested above, this is likely due to the increased chances of buying any new car, particularly the more expensive new electric vehicles.
 
 -----
 
 ### Limitations and Steps for Future Analysis
+
+One significant limitation in this analysis is the fact that data taken from the International Energy Agency only goes up to 2021, and with changes happening quickly in the Electric Vehicle market (plus government incentives changing) these data may be more out-of-date than they appear. More up-to-date data is always a boon for analyses like these.
+
+Some potential steps for future analysis would be to delve deeper into the relationship between incomes and liklihood of purchasing an electric vehicle. This could be done by expanding this analysis to federal tax incentives for electric vehicles. Similarly, another useful analysis could be analyzing the liklihood of purchasing an electric vehicle and the number charging stations normalized by area in a county. Both of these might help with considerations of increasing the use of electric vehicles across a wider range of income brackets or in rural communities, as opposed to suburban and urban, higher-income communities as the data indicates is the case right now.
+
