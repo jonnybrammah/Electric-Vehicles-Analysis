@@ -19,7 +19,7 @@ Questions to be answered can be found in the table of contents, below:
     2. [<b>Electric Car Sales Data per Country (2021)</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#electric-car-sales-data-per-country)
     3. [<b>Charging Points in USA over time</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#charging-points-in-usa-over-time)
 2. [<b>California Tax Rebates for Electric Vehicles</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#california-tax-rebates-for-electric-vehicles)
-3. [<b>Limitations and Future Analysis</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#limitations-and-future-analysis)
+3. [<b>Limitations and Steps for Future Analysis</b>](https://github.com/jonnybrammah/Electric-Vehicles-Analysis/blob/main/README.md#limitations-and-steps-for-future-analysis)
 -----
 
 ### Electric Vehicle Sales and Charging Points Globally and in USA
