@@ -100,7 +100,7 @@ To test the hypothesis regarding incomes in a county vs the rebate dollars award
 <img src="https://raw.githubusercontent.com/jonnybrammah/Electric-Vehicles-Analysis/main/Output/Rebate_Dollars_per_Capita_by_median_income.png">
 </p>
 
-This graph clearly supports the hypothesis that people living in counties with higher median incomes are more likely to claim rebate dollars. The correlation can be clearly seen by the line of best fit, and the r-value of this graph is 0.78 indicating a strong correlation. As suggested above, this is likely due to the increased chances of buying any new car, particularly the more expensive new electric vehicles.
+This graph clearly supports the hypothesis that people living in counties with higher median incomes are more likely to claim rebate dollars. The correlation can be clearly seen by the line of best fit, and the r-squared-value of this graph is 0.78 indicating a strong correlation. As suggested above, this is likely due to the increased chances of buying any new car, particularly the more expensive new electric vehicles.
 
 -----
 
